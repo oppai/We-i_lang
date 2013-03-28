@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Weeei < Brainfuck
+  nxt 'うぇーい'
+  inc 'ｗｗ'
+  prv 'うぇーーい'
+  dec 'ｗwｗ'
+  opn 'ウェーイ'
+  cls 'ウェーーイ'
+  put "ウェイ？"
+  get 'フォイ'
+end
+
+puts Weeei.new.fuck(ARGF.read)
+
